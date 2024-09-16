@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>iPhone Calculator</title>
+<style>
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  max-width: 400px;
+  margin: 0 auto;
+}
+button {
+  grid-column: span 1;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #e0e0e0;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #d9d9d9;
+}
+button.operator {
+  background-color: #f5923e;
+  color: white;
+}
+button.clear {
+  grid-column: span 2;
+  background-color: #acacac;
+}
+button.equal {
+  grid-column: span 2;
+  background-color: #3f88c5;
+  color: white;
+}
+</style>
+</head>
+<body>
+<div class="container">
+  <button class="clear">C</button>
+  <button>/</button>
+  <button>*</button>
+  <button>-</button>
+  <button>7</button>
+  <button>8</button>
+  <button>9</button>
+  <button>+</button>
+  <button>4</button>
+  <button>5</button>
+  <button>6</button>
+  <button class="operator">=</button>
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>
+  <button>(</button>
+  <button>0</button>
+  <button>.</button>
+  <button>)</button>
+</div>
+</body>
+</html>
+<head>FAHAD</head>
+<element>LOGO</element>
